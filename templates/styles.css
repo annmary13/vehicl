@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro span{
+    color: rgb(101, 215, 243) ;
+}
+
+.main{
+    font-family: "Poppins" ,sans-serif ;
+    font-size: 120%;
+    background:  black;
+padding: 0rem;
+    color: white;
+    width: 100%;
+    margin: 0rem  ; 
+}
+
+
+.intro h1{
+    font-family:"STIX Two Text" , serif;
+    
+    margin:1rem 4rem;
+    font-size: 3rem; }
+
+ .intro {
+    padding: 4rem 4rem;
+    margin: 50px 50px;
+align-items: center;
+z-index:1;
+} 
+
+.bg-dark{
+    font-size: 120%;
+    display: flex;
+    justify-content : space-between;
+    
+    padding: 2rem 4rem;
+    border-radius: .5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-darkLink{
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.bg-darkLink:hover{
+color: rgb(101, 215, 243);
+font-size: 170%;
+transition: all 0.5s ease-in-out;
+}
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+   
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	justify-content: space-between;
+	align-items: center;	
+    padding: 100px ;
+    border: 3px solid #000000;
+    text-align: center;
+	background: #313131;
+	border-radius: 0.5rem;
+	box-shadow: 1px 2px 3px 4px #313131;
+  }
+
+/* .col-lg-6{
+    text-align;
+} */
+
+.Mech{
+    padding: 10rem;
+    align-items: center;
+    border-radius: 5rem; 
+    margin: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.mech_in{
+    padding: 1rem 2em;
+	margin: 0.5rem;
+	border: solid 5px #eee;
+	border-radius: 5rem;
+    text-align: center;
+
+}
+
+.mech1{    
+    display: flex;
+    justify-content: left;
+}
+
+.Cus{
+    padding: 10rem;
+    align-items: center;
+    border-radius: 10rem; 
+    margin: 5rem;
+    font-size: 1.5rem;
+}
+
+.cus_in{
+    padding: 1rem 2em;
+	margin: 0.5rem;
+	border: solid 5px #eee;
+	border-radius: 5rem;
+
+}
+
+.cus{    
+    display: flex;
+    justify-content: left;
+}
+
+.cnct{
+    padding: 10rem;
+    align-items: center;
+    border-radius: 10rem; 
+    margin: 0rem;
+    font-size: 1.5rem;
+}
+
+.Review {
+	width: 50%;
+	margin: 1.5rem auto;
+}
+
+.Review h2 {
+	font-size: 3rem;
+	color: #eee;
+	margin: 2.5rem 0 1rem;
+	text-align: center;
+}
+
+.Review div {
+	margin: 0.5rem 0;
+}
+
+.Review input, textarea {
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.Review__Fields {
+	border-radius: 10px;
+	border: 1px solid #eee;
+	transition: 0.3s border-color;
+}
+
+.Review__Fields:hover {
+	border: 1px solid #aaa;
+}
+
+
+.colour{
+    color: rgb(101, 215, 243);
+    font-family: 'Bebas Neue', cursive ;
+    font-size: 3rem;
+}
+
+.colourIcon{
+    color:rgb(101, 215, 243) ;
+    
+    padding-right: 10px; 
+}
+/* 
+.cntr{
+    text-align: right;
+}
+   */
+  
+ 
