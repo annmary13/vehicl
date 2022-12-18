@@ -38,8 +38,7 @@
 
 ## HOW TO RUN THIS PROJECT
 - Enter following URL in Your Browser Installed On Your Pc
-http://127.0.0.1:8000/
-
+http://127.0.0.1:5500/home.html
 ## Disclaimer
 This project is developed for demo purpose and it's not supposed to be used in real application.
 
